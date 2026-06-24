@@ -1,0 +1,313 @@
+/* dinh_dang.qss - File dinh dang giao dien cho ung dung Quan Ly Sieu Thi */
+/* Su dung palette: xanh duong dam, trang, xam */
+
+/* ─────────────────────────────────────────────
+   GIAO DIEN CHINH (MainWindow)
+   ───────────────────────────────────────────── */
+
+QMainWindow {
+    background-color: #f0f2f5;
+}
+
+/* ─────────────────────────────────────────────
+   SIDEBAR (Panel ben trai)
+   ───────────────────────────────────────────── */
+
+QWidget#sidebar {
+    background-color: #1a237e;
+    border: none;
+    border-radius: 0px;
+}
+
+QWidget#sidebar QLabel {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+QWidget#sidebar QPushButton {
+    background-color: transparent;
+    color: #c5cae9;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 14px;
+    text-align: left;
+    margin: 2px 8px;
+}
+
+QWidget#sidebar QPushButton:hover {
+    background-color: #283593;
+    color: #ffffff;
+}
+
+QWidget#sidebar QPushButton#btn_active {
+    background-color: #3949ab;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* ─────────────────────────────────────────────
+   NUT BAM CHUNG (Buttons)
+   ───────────────────────────────────────────── */
+
+QPushButton#btn_them {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton#btn_them:hover {
+    background-color: #388e3c;
+}
+
+QPushButton#btn_sua {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton#btn_sua:hover {
+    background-color: #1976d2;
+}
+
+QPushButton#btn_xoa {
+    background-color: #c62828;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton#btn_xoa:hover {
+    background-color: #d32f2f;
+}
+
+QPushButton#btn_luu {
+    background-color: #e65100;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton#btn_luu:hover {
+    background-color: #ef6c00;
+}
+
+QPushButton#btn_khac {
+    background-color: #455a64;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 13px;
+}
+
+QPushButton#btn_khac:hover {
+    background-color: #546e7a;
+}
+
+/* ─────────────────────────────────────────────
+   BANG DU LIEU (QTreeWidget)
+   ───────────────────────────────────────────── */
+
+QTreeWidget {
+    background-color: #ffffff;
+    alternate-background-color: #f5f5f5;
+    border: 1px solid #bdbdbd;
+    border-radius: 6px;
+    font-size: 13px;
+    selection-background-color: #e3f2fd;
+    selection-color: #1a237e;
+    gridline-color: #e0e0e0;
+}
+
+QTreeWidget::item {
+    padding: 8px 5px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+QTreeWidget::item:hover {
+    background-color: #e8eaf6;
+}
+
+QHeaderView::section {
+    background-color: #1a237e;
+    color: #ffffff;
+    padding: 10px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-right: 1px solid #283593;
+}
+
+QHeaderView::section:last {
+    border-right: none;
+}
+
+/* Hang canh bao (se duoc dat boi code, nhung day la fallback) */
+QTreeWidget#hang_canh_bao {
+    background-color: #ffebee;
+}
+
+/* ─────────────────────────────────────────────
+   O NHAP LIEU (Line Edit, Combo Box)
+   ───────────────────────────────────────────── */
+
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox, QDateEdit {
+    background-color: #ffffff;
+    border: 1px solid #bdbdbd;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: #212121;
+}
+
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus {
+    border: 2px solid #1565c0;
+}
+
+QLineEdit:disabled, QComboBox:disabled {
+    background-color: #f5f5f5;
+    color: #9e9e9e;
+}
+
+/* ─────────────────────────────────────────────
+   NHAN (Labels)
+   ───────────────────────────────────────────── */
+
+QLabel {
+    font-size: 13px;
+    color: #424242;
+}
+
+QLabel#tieu_de {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a237e;
+}
+
+QLabel#nhan_truong {
+    font-size: 12px;
+    font-weight: bold;
+    color: #616161;
+}
+
+/* ─────────────────────────────────────────────
+   NHOM (Group Box)
+   ───────────────────────────────────────────── */
+
+QGroupBox {
+    background-color: #ffffff;
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+    margin-top: 12px;
+    padding: 20px 15px 15px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a237e;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 15px;
+    padding: 0 8px;
+}
+
+/* ─────────────────────────────────────────────
+   COMBOBOX DROPDOWN
+   ───────────────────────────────────────────── */
+
+QComboBox::drop-down {
+    border: none;
+    width: 30px;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #616161;
+    margin-right: 10px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #ffffff;
+    border: 1px solid #bdbdbd;
+    selection-background-color: #e3f2fd;
+    selection-color: #1a237e;
+    padding: 5px;
+}
+
+/* ─────────────────────────────────────────────
+   THONG BAO (Message Box)
+   ───────────────────────────────────────────── */
+
+QMessageBox {
+    background-color: #ffffff;
+}
+
+QMessageBox QLabel {
+    font-size: 14px;
+    color: #212121;
+}
+
+/* ─────────────────────────────────────────────
+   SCROLL BAR
+   ───────────────────────────────────────────── */
+
+QScrollBar:vertical {
+    border: none;
+    background: #f5f5f5;
+    width: 10px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: #bdbdbd;
+    min-height: 30px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #9e9e9e;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* ─────────────────────────────────────────────
+   THONG KE PANEL
+   ───────────────────────────────────────────── */
+
+QLabel#thong_ke_so {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1a237e;
+}
+
+QLabel#thong_ke_nhan {
+    font-size: 12px;
+    color: #757575;
+}
+
+QLabel#canh_bao {
+    color: #c62828;
+    font-weight: bold;
+    font-size: 13px;
+}

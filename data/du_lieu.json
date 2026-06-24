@@ -1,0 +1,55 @@
+[
+    {
+        "loai": "ThucPham",
+        "ma_hang": "TP001",
+        "ten_hang": "Sữa tươi Vinamilk 1L",
+        "so_luong": 50,
+        "gia_nhap": 25000,
+        "ngay_san_xuat": "2026-06-01",
+        "ngay_het_han": "2026-07-01"
+    },
+    {
+        "loai": "ThucPham",
+        "ma_hang": "TP002",
+        "ten_hang": "Cà phê Trung Nguyên G7",
+        "so_luong": 3,
+        "gia_nhap": 85000,
+        "ngay_san_xuat": "2026-01-15",
+        "ngay_het_han": "2027-01-15"
+    },
+    {
+        "loai": "ThucPham",
+        "ma_hang": "TP003",
+        "ten_hang": "Mì Hảo Hảo ly",
+        "so_luong": 2,
+        "gia_nhap": 12000,
+        "ngay_san_xuat": "2026-03-01",
+        "ngay_het_han": "2026-06-25"
+    },
+    {
+        "loai": "DienMay",
+        "ma_hang": "DM001",
+        "ten_hang": "Quạt bàn Panasonic",
+        "so_luong": 15,
+        "gia_nhap": 450000,
+        "thoi_gian_bao_hanh": 12,
+        "cong_suat": "50W"
+    },
+    {
+        "loai": "DienMay",
+        "ma_hang": "DM002",
+        "ten_hang": "Nồi cơm điện Sharp 1.8L",
+        "so_luong": 8,
+        "gia_nhap": 800000,
+        "thoi_gian_bao_hanh": 24,
+        "cong_suat": "700W"
+    },
+    {
+        "loai": "HangGiaDung",
+        "ma_hang": "GD001",
+        "ten_hang": "Bình nước nhựa LocknLock",
+        "so_luong": 100,
+        "gia_nhap": 45000,
+        "chat_lieu": "Nhựa"
+    }
+]
